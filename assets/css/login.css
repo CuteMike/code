@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: url('../images/login_bg.jpg') no-repeat;
+  background-size: cover;
+
+}
+
+.loginAndReg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0 20px 20px;
+  width: 400px;
+  background-color: #fff;
+}
+
+.title {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.icon {
+  position: relative;
+}
+
+.icon .layui-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.icon input {
+  padding-left: 30px;
+
+}
+
+input::placeholder {
+  color: #d9d9d9;
+}
+
+#link_login,
+#link_reg {
+  font-size: 12px;
+  color: #1890ff;
+}
+
+.reg {
+  display: none;
+}
